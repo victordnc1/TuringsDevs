@@ -1,6 +1,42 @@
 #titulo{ text-align:center;
-	color:#80864D}
+	color:#80864D;
+	margin-bottom:40px}
 
-#barranav{ background-color:#F3F3F3;
-	text-transform:capitalize}
-li {display:inline}
+#barranav{ 
+	text-transform:capitalize;
+	margin-bottom:50px;
+	display:block;
+	text-align:justify;
+	}
+	
+
+#menu > li {
+	background-color:#F3F3F3;
+	display:inline;
+	padding:15px;
+	}
+
+#menu > li:hover { background-color:#CCCCCC;
+	-webkit-transition:-webkit-transform 1s ease 0.5s;
+	}
+	
+ li:hover > #submenu{ display:inline;
+ 	background-color:#F3F3F3;
+	position:absolute;
+	padding:20px;
+	text-align:center;
+	
+	}
+
+#submenu > li:hover { background-color:#CCCCCC
+	}
+		
+#submenu {
+	padding:10px;
+	display:none;
+	
+	}
+	
+	
+	
+ul{list-style:none}
