@@ -1,6 +1,9 @@
 #titulo{ text-align:center;
 	color:#80864D;
 	margin-bottom:40px}
+#titulo{ text-align:center;
+	color:#80864D;
+	margin-bottom:40px}
 
 #barranav{ 
 	text-transform:capitalize;
@@ -12,23 +15,31 @@
 
 #menu > li {
 	background-color:#F3F3F3;
-	display:inline;
+	display:inline-block;
 	padding:15px;
+	position:relative;
 	}
 
-#menu > li:hover { background-color:#CCCCCC;
-	-webkit-transition:-webkit-transform 1s ease 0.5s;
+#menu > li:hover { 
+	background-color:#CCCCCC;
+	transition:0.3s;
+	cursor:pointer;
 	}
 	
  li:hover > #submenu{ display:inline;
  	background-color:#F3F3F3;
 	position:absolute;
+	left:0;
+	top:45px;
 	padding:20px;
 	text-align:center;
 	
 	}
 
-#submenu > li:hover { background-color:#CCCCCC
+#submenu > li:hover { 
+	background-color:#CCCCCC;
+	transition:0.3s;
+	cursor:pointer;
 	}
 		
 #submenu {
@@ -36,7 +47,6 @@
 	display:none;
 	
 	}
-	
 	
 	
 ul{list-style:none}
